@@ -1,4 +1,4 @@
-# cloudapplications 
+# cloud applications 
 
 ## Project background
 
@@ -8,7 +8,7 @@ Beschrijf alle doelstellingen
 
 beschrijf alle technologie die je in je project gaat gebruiken. Vb. ASP.NET CORE MVC, Angular, HTML5, CSS3,..
 
-## Architecture
+## Architectuur
 
 Maak een schematische voorstelling van je software architectuur. Indien je gebruik maakt van ASP.NET CORE MVC kan je 
 gebruik maken van de architectuur beschreven in volgende post: https://www.toptal.com/angular/angular-5-asp-net-core?utm_source=hs_email&utm_medium=email&utm_content=64754821&_hsenc=p2ANqtz--ulC07UR5v9iSLi8tmPZLo3o3pzi0hXRShrOK5KK5tU5qRxHOhQ-UYRliQEqeJNoO5b_Q950Dnt4yjy5BYEJZbJIu2OA&_hsmi=64754821
