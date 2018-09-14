@@ -2,6 +2,8 @@
 
 ## Project background
 
+Beschrijf alle doelstellingen
+
 ## Technology stack
 
 beschrijf alle technologie die je in je project gaat gebruiken. Vb. ASP.NET CORE MVC, Angular, HTML5, CSS3,..
