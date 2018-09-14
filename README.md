@@ -78,11 +78,24 @@ Create validation error, also update border to red (Screenshot: 01_Login_C.png)
  => 1: ja
  
  ## Testing: gewicht 20
+ => 0: nee
+ => 1: beperkt gebruik van unit testing
+ => 2: je test de meeste functionaliteit in je business layer
+ => 3: je test alle functionaliteit 
  
  
+ # Deliverables
  
- 
- # Appendix
+ - een document in PDF/Word/Markdown die een beschrijving geeft van je werk methodologie. (minimum 2 pagina's). Maak gebruik van schema's, grafieken, tabellen om je idee uit te leggen.
+- deployment beschrijving
+- Implementatie beschrijving (je kan gebruik maken van doxygen : http://www.doxygen.nl/)
+- een step-by-step instructie gids hoe we je applicatie kunnen gebruiken
+- Je code mag in elke programeertaal gebruikt worden. Doch de stakeholders hebben een voorkeur om ASP.NET CORE MVC in de backend te gebruiken.
+- Al je bron code via github
+- Alle project management taken via jira.ap.be
+- eindpresentatie
+
+# Appendix
  
  ## Code styling
  1. gebruik consistent indentation
@@ -96,6 +109,22 @@ Create validation error, also update border to red (Screenshot: 01_Login_C.png)
  2. Elke ontwikkelaar werkt aan een volledige user story. Dit wil zeggen dat je zowel frontend als backend code dient te schrijven.
  3.Verwijder onnodige code. Eens je user story werkt moet de code in commentaar verwijderd worden
  
+ ## Voorbeeld projecten
+
+Het is de bedoeling dat je zelf een project voorstel uitwerkt. Onderstaande voorbeeld projecten kunnen je hierbij helpen.
+
+### City escape game
+Via puzzels en gps routes moet je uit de stad ontsnappen. Via smartphones moet het spel speelbaar zijn. Maak gebruik van AR technologie om je city game uniek te maken. Het is belangrijk om een goede data bron (API) te vinden om de geschiedenis of toerisische attracties van de stad in je spel te kunnen betrekken.
+
+### Question-App
+Ooit al eens een vraag willen stellen, maar toch niet gedurfd omdat je dacht dat het een domme vraag was? Domme vragen bestaan niet! Met deze applicatie willen we een systeem ontwikkelen dat toelaat om online vragen te stellen in de klas. Hiervoor starten docenten een les op en en waarop studenten zich kunnen registeren. Vanafnu hebben studenten de mogelijkheid om vragen te stellen via de applicatie. Bij een nieuwe vraag worden alle studenten genotifieerd en kunnen ze deze vraag liken. Op deze manier ziet de docent welke vragen populair zijn. De docent heeft hiervoor een dashboard ter beschikking die een lijst van vragen toont gerankschikt op populariteit.
+Verder wordt een history van vragen per les bijgehouden voor de docent, beschikbaar via een Restful API. Ook voorzie je in je API dat vragen over hetzelfde onderwerp worden samengebundeld over verschillende universiteiten en hogescholen heen. Deze moeten ook gerankschikt kunnen worden op populariteit (vb. % likes per aantal studenten in les..). Deze vragen zijn via de API beschikbaar. Een history van vragen bijhouden zonder antwoord zorgt voor enige frustatie. De antwoorden kunnen beoordeeld worden, maar ook de gebruikers die antwoorden posten worden beoordeeld. Het beoordelingssysteem van de app is bedoeld om wederzijds respect en
+verantwoordelijkheid op het platform te bevorderen. Na het afronden van een les kan de docent telkens aan de studenten vragen om een score te geven: in hoeverre denk je deze leerstof te begrijpen (1, ik snap er niks van, 5: alles duidelijk), of bv. Snel enkele multiple choice vragen (die bv. Al op voorhand klaar staan) af te vuren waarop studenten klassikaal moeten antwoorden via de app zodat de docent snel feedback krijgt wat er duidelijk is en wat nog niet.
+
+### Uber voor ijskarren
+Uber voor ijskarren is een technologieplatform dat ijscoventers in contact brengt met mensen zin in een ijsje door middel van een webapplicatie. Het werkt als volgt. Je kan een ijsje aanvragen door middel van de app. Je aanvraag wordt verzonden naar een chauffeur in de buurt. Wanneer een chauffeur je aanvraag accepteert, wordt in de app vermeld hoe lang het ongeveer zal duren voordat de chauffeur aankomt op je ophaallocatie. De app geeft ook een melding wanneer de chauffeur bijna bij de ophaallocatie is. Nadat je een rit hebt aangevraagd, krijg je in de app de naam van de chauffeur, en bedrijfsnaam te zien, zodat je zeker weet dat je de juiste ijscocar hebt.
+Wanneer je aankomt op je bestemming, eindigt je ijscorit. Direct na afloop van de rit vraagt de app je de ijscoman te beoordelen. Chauffeurs worden eveneens gevraagd hun passagiers te beoordelen. Het beoordelingssysteem van de app is bedoeld om wederzijds respect en verantwoordelijkheid op het platform te bevorderen.
+
  
  ## Links
  
