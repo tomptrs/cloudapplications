@@ -22,6 +22,17 @@ Beschrijf hier hoe je je software oplossing kan deployen
 Maak hier een lijst van user stories aan. Deze user stories worden gekoppeld aan mockups.
 Al je user stories vormen je backlog in jira.ap.be
 
+Vooraleer je aan de implementatie van een user story begint, is er nood om exact te weten wat er moet gebeuren: beschrijf dit zorgvuldig! Vb.
+
+
+UserStory1: Als een gebruiker kan ik inloggen met een username en paswoord
+1). Login: #UserStory1 
+Screenshot: 01_Login_A.png
+This will be a simple login to capture username and password
+Display Remember Me and Forgot Password links
+On input focus need display the gold border (Screenshot: 01_Login_B.png)
+Create validation error, also update border to red (Screenshot: 01_Login_C.png)
+
 # Waarop wordt er gelet tijdens de evaluatie
 
 ### Specificaties: gewicht:100
@@ -117,4 +128,7 @@ https://code-maze.com/authentication-aspnetcore-jwt-1/
 
 Unit testing ASP.NET CORE
 https://code-maze.com/unit-testing-aspnetcore-web-api/
+
+Getting started on ASP.Net MVC here
+https://docs.microsoft.com/en-us/aspnet/core/getting-started/?view=aspnetcore-2.1&tabs=macos 
  
